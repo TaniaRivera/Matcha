@@ -5,17 +5,67 @@
         <title>MATCHA - TRC</title>
     </head>
     <style>
-        h1{color:#025157}
+        h1{color:#025157 }
         h2{color:#7404be}
         h3{color: blue;}
         h4{color: crimson;}
         p{color: rgb(161, 4, 96)}
-        button{color: #025157}
+        button{color: #f7f8f6;
+                background-color: green;}
+        .header {
+                  margin-top: 40px;
+                  margin-left: 20px;
+                  margin-right: 20px;
+                  }
+
+        .header > * {
+                  display: inline-block;
+                  vertical-align: middle;
+                  height: 100%;
+                  line-height: 20px;
+                }               
+
+        .logo {  
+              width: 20%;}
+
+        .logo > img {
+                    height: 100%;}
+
+        .navbar {
+                  width: 70%;
+                  text-align: left;
+                  color: #025157;
+                  font-weight: 100;}
+
+        .actions {
+                  width: 10%;
+                  text-align: left;
+                  font-size: 14px;
+                  font-weight: 600}
+
     </style>
     <body style="background-color: #fffbf7">
-        <!--ESto es lo que se vera en el navegador WEB-->
-        <h1><i>Build your blog. Build your business..</i></h1>
-        <h2>esta es una prueba de H2</h2>
+      <header class="header">
+        <!--ESto es lo que se vera en el navegador WEB-->        
+        <img src="C:\Users\ferna\OneDrive\Imágenes\Imagenes_BEDU\GIT\plantilla-logotipo-flor-verde.png" width="50" height="50">
+        <a href="/" class="logo"></a>
+        <h1 style="display: inline-block"><i>Build your blog. Build your business..</i></h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>             
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header> 
+      
+      <div class="actions" style="color: blue;">
+        <h2> División ... </h2>
+         <p>
+           Esto es un párrafo dentro de un div <br><br><br>
+         </p>
+       </div>
+
         <h3>este es una prueba de h3</h3>
         <h4> H4 -- Instantly publish articles, drive more traffic, grow your email list, and
           see your blog’s impact on sales.</h4>
